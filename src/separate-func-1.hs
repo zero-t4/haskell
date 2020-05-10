@@ -1,0 +1,1 @@
+separateFunc x = x * 8
