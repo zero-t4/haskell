@@ -20,3 +20,8 @@ rock'n'roll = 42
 -- Valid function name, this function return constant 42
 
 -- in order to defined function in ghci we should use `let rock'n'roll = 42`
+
+-- if could be treated as expression
+f x = (if x > 0 then 0 else (-5)) + 1
+
+-- negative number should be wrapped by parentheses
