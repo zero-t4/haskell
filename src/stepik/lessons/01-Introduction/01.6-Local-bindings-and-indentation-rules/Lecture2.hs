@@ -1,3 +1,4 @@
+module Lecture2 where
 -- Let in
 
 roots :: Double -> Double -> Double -> (Double, Double)
