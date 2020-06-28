@@ -84,7 +84,7 @@ num = length (filter isLengthGt15 (map getCollatzSequence [1..100]))
 -- WOW, this will produce list of partially applied functions!
 -- like so [[(0*),(1*),(2*),(3*),(4*),(5*)..
 a = map (*) [0..]
-(a ! 10) 2
+(a !! 10) 2
 -- 100
 
 
