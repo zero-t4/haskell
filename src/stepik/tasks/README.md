@@ -10,4 +10,4 @@
 
 [02-Programming-basics](./02-Programming-basics)
  * [02.1-Parametric-polymorphism](./02-Programming-basics/02.1-Parametric-polymorphism)
- * [02.1-Parametric-polymorphism-2](./02-Programming-basics/02.1-Parametric-polymorphism-2)
+ * [02.2-Parametric-polymorphism-2](./02-Programming-basics/02.2-Parametric-polymorphism-2)
