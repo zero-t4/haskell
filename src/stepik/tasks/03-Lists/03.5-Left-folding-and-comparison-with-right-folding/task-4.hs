@@ -9,8 +9,3 @@
 evenOnly :: [a] -> [a]
 evenOnly (x:y:xs) = y : evenOnly xs
 evenOnly _ = []
-
-
-
-
-
