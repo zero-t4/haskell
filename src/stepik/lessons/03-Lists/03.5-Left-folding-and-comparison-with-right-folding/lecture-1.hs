@@ -3,9 +3,9 @@ module Demo where
 import Prelude hiding (foldl)
 
 {-|
-  foldl f ini [1,2,3] ->> 1 `f` (2 `f` (3 `f` ini))
+  foldr f ini [1,2,3] ->> 1 `f` (2 `f` (3 `f` ini))
 
-  ((ini `f` 1) `f` 2) `f` 3
+  foldl f ini [1,2,3] ->> ((ini `f` 1) `f` 2) `f` 3
 
   f(f(f ini 1) 2) 3
 
