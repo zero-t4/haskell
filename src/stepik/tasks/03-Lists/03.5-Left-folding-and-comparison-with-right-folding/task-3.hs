@@ -8,5 +8,6 @@
 -}
 
 evenOnly :: [a] -> [a]
-evenOnly = snd . foldr (\a (xs, ys) -> (a : ys, xs)) ([], [])
-
+evenOnly [] = []
+evenOnly [_] = []
+evenOnly (x1:x2:xs) = x2 : evenOnly xs
