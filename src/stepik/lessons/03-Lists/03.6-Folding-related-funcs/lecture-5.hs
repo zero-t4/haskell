@@ -3,8 +3,9 @@ module Demo where
 import Prelude hiding (iterate)
 
 unfold :: (b -> (a,b)) -> b -> [a]
-unfold f ini = let (x,ini') = f ini in
-  x : unfold f ini'
+unfold f ini =
+  let (x,init) = f ini
+  in x : unfold f init
 
 {-|
   iterate f x == [x, f x, f (f x), f (f (f x)), ..]
