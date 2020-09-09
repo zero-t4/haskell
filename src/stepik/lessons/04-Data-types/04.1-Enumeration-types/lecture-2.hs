@@ -4,7 +4,7 @@ data B = T | F deriving (Show, Eq, Read, Enum)
 
 not1 :: B -> B
 not1 T = F
---not1 F = T
+not1 F = T
 
 a = not1 F
 -- T
